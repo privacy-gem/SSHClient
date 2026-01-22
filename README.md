@@ -12,8 +12,6 @@ A simple Android app for executing SSH commands on remote servers. Built with **
 **File Management**: Save session logs and view past commands.
 **User-Friendly UI**: Clean and intuitive design built with Jetpack Compose.
 
----
-
 ## **Tech Stack**
 - **Language**: Kotlin
 - **UI Framework**: Jetpack Compose
