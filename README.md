@@ -4,8 +4,6 @@ A simple Android app for executing SSH commands on remote servers. Built with **
 
 <img width="230" height="450" alt="image" src="https://github.com/user-attachments/assets/c9e99617-9cdd-4074-a5db-a5afffb0a197" />
 
----
-
 ## **Features**
 **SSH Connection**: Connect to a remote server using hostname/IP, port, username, and password.
 **Command Execution**: Run commands (e.g., `ls`, `whoami`) and view outputs in a terminal-like interface.
@@ -18,8 +16,6 @@ A simple Android app for executing SSH commands on remote servers. Built with **
 - **State Management**: `remember` and `mutableStateOf`
 - **Storage**: [Insert]
 - **Networking**: [insert] 
-
----
 
 ## **How It Works**
 1. **Connect to a Server**:
@@ -34,8 +30,6 @@ A simple Android app for executing SSH commands on remote servers. Built with **
    - Save session logs to your device.
    - View or delete saved logs in the file manager.
 
----
-
 ## **UI Design**
 The app’s UI is built with **Jetpack Compose** and includes:
 - **Connection Section**: Input fields for SSH credentials.
@@ -43,12 +37,8 @@ The app’s UI is built with **Jetpack Compose** and includes:
 - **Command Input**: Text field for entering commands.
 - **File Manager**: Lists saved session logs.
 
----
-
 ## **Storage**
 - Session logs are saved as text files in the app’s internal storage.
 - Files are listed and can be viewed or deleted in the file manager.
-
----
 
 ## **Networking**
