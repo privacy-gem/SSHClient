@@ -46,3 +46,8 @@ Originally built using flat text files, the storage layer has been upgraded to R
 The app uses the JSch library to manage SSH connections.
 - **Persistent Shell**: Unlike stateless command execution, we utilize ChannelShell to create a Pseudo-Terminal (PTY). This keeps the session "alive," allowing users to navigate directories (e.g., cd) just like a real desktop terminal.
 - **Asynchronous Buffering**: To prevent UI freezing and latency, the network layer uses raw byte buffering instead of blocking `readLine
+## ** Testing**
+you can use rebex to test 
+host - test.rebex.net
+user - demo
+pass - password
